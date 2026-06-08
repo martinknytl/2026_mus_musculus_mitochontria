@@ -65,8 +65,7 @@ bwa index GCF_000001635.27_GRCm39_genomic.fna
 #SBATCH --account=rrg-ben
 
 # run by passing an argument like this (in the directory with the files)
-# sbatch 2020_align_paired_fq_to_ref.sh pathandname_of_ref path_to_paired_fq_filez
-# sbatch 2020_align_paired_fq_to_ref.sh /home/ben/projects/rrg-ben/ben/2018_Austin_XB_genome/Austin_genome/Xbo.v1.fa.gz pathtofqfilez
+# sbatch 2020_align_paired_fq_to_ref.sh /home/ben/projects/rrg-ben/ben/2018_Austin_XB_genome/Austin_genome/Xbo.v1.fa.gz path_to_paired_fq_files
 
 module load bwa/0.7.17
 # module load samtools/1.10
