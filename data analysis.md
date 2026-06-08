@@ -27,6 +27,10 @@ for file in $1/*R1_001.fastq.gz; do         # Use ./* ... NEVER bare *
 done
 ```
 
+```
+sbatch /home/knedlo/projects/rrg-ben/knedlo/martin_scripts/2026_trimmomatic_mitochondria.sh ./
+```
+
 ### 2) bwa alignment
 
 mapped to the Mus musculus nuclear genome downloaded from:
