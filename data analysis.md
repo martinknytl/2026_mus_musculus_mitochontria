@@ -53,7 +53,6 @@ make an index file:
 bwa index GCF_000001635.27_GRCm39_genomic.fna
 ```
 
-
 ```
 #!/bin/sh
 #SBATCH --job-name=bwa_align
@@ -81,6 +80,7 @@ for file in ${2}/*_trim_R2.fq.gz ; do         # Use ./* ... NEVER bare *
 done
 ```
 
+two scripts executed: Oocyty1 pool and Oocyty2 pool
 ```
 sbatch /home/knedlo/projects/rrg-ben/knedlo/ben_scripts/2020_align_paired_fq_to_ref.sh /home/knedlo/projects/rrg-ben/knedlo/mitochondria/mus_musculus_nuclear_genome/GCF_000001635.27_GRCm39_genomic.fna .
 ```
